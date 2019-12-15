@@ -1,2 +1,2 @@
-# Hackintosh_7572_config
+# Configuration for 7572
 Hackintosh configuration for Dell 7572
