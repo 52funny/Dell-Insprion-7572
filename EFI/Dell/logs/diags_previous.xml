@@ -1,13 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
   <SupportAssistPrebootDiagnosticLog>
     <Schema>1.0.0</Schema>
-    <LogNumber>27</LogNumber>
-    <LogTimeStamp>11/18/2019 10:59:38</LogTimeStamp>
+    <LogNumber>39</LogNumber>
+    <LogTimeStamp>03/01/2020 06:26:21</LogTimeStamp>
     <ePSA_Data>
-      <Result>Abort</Result>
+      <Result>Pass</Result>
       <DevicesTested>Memory, Hard Drive</DevicesTested>
+      <LogData>
+        <ePSALogTimeStamp>03/01/2020 06:26:11</ePSALogTimeStamp>
+        <ePSAVersion>4306.12</ePSAVersion>
+        <ErrorCode>2000:0000</ErrorCode>
+        <ValidationCode>81286</ValidationCode>
+        <ErrorMessage><![CDATA[ePSA quick test pass]]></ErrorMessage>
+      </LogData>
+      <MemRxHealed>FALSE</MemRxHealed>
+      <ePSAInfo><![CDATA[serviceTag=7WYHXQ2&errCode=0000&ValCode=81286&uID=0FFE0]]></ePSAInfo>
       <ePSAFullVersion>4306.12</ePSAFullVersion>
-      <ePSAInvocationCount>3</ePSAInvocationCount>
+      <ePSAInvocationCount>2</ePSAInvocationCount>
     </ePSA_Data>
     <BIOS_Data>
       <ErrorCategory>NO_BOOT</ErrorCategory>
