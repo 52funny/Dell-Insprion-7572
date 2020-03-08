@@ -1,9 +1,9 @@
 # Dell Insprion 7572
 
 
-Detail/配置:
+Detail /配置:
 
-Intel Core i7-8550U/ Intel UHD Graphics 620 2048 MB & NVIDIA Graphics MX150/ Broadcom 1820A (BCM4350) & Realtek RTL8168H/ Realtek ALC256/ 海康威视 HS-SSD-C2000 512GB & Seagate ST1000LM035-1RK172/
+Intel Core i7-8550U / Intel UHD Graphics 620 2048 MB & NVIDIA Graphics MX150 / Broadcom 1820A (BCM4350) & Realtek RTL8168H / Realtek ALC256 / 海康威视 HS-SSD-C2000 512GB & Seagate ST1000LM035-1RK172/
 
 ![image](https://github.com/Staby2000/Hackintosh-7572-config/blob/master/about.png)
 
