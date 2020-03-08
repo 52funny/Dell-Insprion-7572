@@ -9,6 +9,6 @@ Intel Core i7-8550U/ Intel UHD Graphics 620 2048 MB/ Broadcom 1820A (BCM4350) & 
 
 感谢黑果小兵 @daliansky 和 @ic005k 提供的 DELL7472 供我学习参考
 
-![image](http://github.com/Staby2000/Hackintosh-7572-config/about.png)
+![image](https://github.com/Staby2000/Hackintosh-7572-config/blob/master/about.png)
 
 已知问题：HDMI暂无法使用
