@@ -624,7 +624,7 @@
 				<key>Comment</key>
 				<string></string>
 				<key>Enabled</key>
-				<false/>
+				<true/>
 				<key>ExecutablePath</key>
 				<string>Contents/MacOS/VerbStub</string>
 				<key>MaxKernel</key>
@@ -748,13 +748,13 @@
 			</dict>
 			<dict>
 				<key>BundlePath</key>
-				<string>BrcmPatchRAM3.kext</string>
+				<string>BrcmPatchRAM2.kext</string>
 				<key>Comment</key>
 				<string></string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
-				<string>Contents/MacOS/BrcmPatchRAM3</string>
+				<string>Contents/MacOS/BrcmPatchRAM2</string>
 				<key>MaxKernel</key>
 				<string></string>
 				<key>MinKernel</key>
@@ -927,7 +927,7 @@
 			<key>HibernateMode</key>
 			<string>Auto</string>
 			<key>PickerMode</key>
-			<string>Apple</string>
+			<string>External</string>
 			<key>HideAuxiliary</key>
 			<true/>
 			<key>HideSelf</key>
@@ -1035,7 +1035,7 @@
 			<dict>
 				<key>#EnableTRIM</key>
 				<data>AQAAAA==</data>
-				<key>#bootercfg</key>
+				<key>bootercfg</key>
 				<string>log=0 debug=0 level=0</string>
 				<key>#nvda_drv</key>
 				<data>MA==</data>
@@ -1050,9 +1050,9 @@
 		<key>Block</key>
 		<dict/>
 		<key>LegacyEnable</key>
-		<true/>
+		<false/>
 		<key>LegacyOverwrite</key>
-		<true/>
+		<false/>
 		<key>LegacySchema</key>
 		<dict>
 			<key>7C436110-AB2A-4BBB-A880-FE41995C9F82</key>
@@ -1068,6 +1068,8 @@
 				<string>fmm-computer-name</string>
 				<string>nvda_drv</string>
 				<string>prev-lang:kbd</string>
+				<string>efi-boot-device</string>
+				<string>efi-boot-device-data</string>
 			</array>
 			<key>8BE4DF61-93CA-11D2-AA0D-00E098032B8C</key>
 			<array>
@@ -1159,10 +1161,10 @@
 		<true/>
 		<key>Drivers</key>
 		<array>
-			<string>FwRuntimeServices.efi</string>
 			<string>ApfsDriverLoader.efi</string>
+			<string>FwRuntimeServices.efi</string>
 			<string>HFSPlus.efi</string>
-			<string>NdkBootPicker.efi</string>
+			<string>BootLiquor.efi</string>
 		</array>
 		<key>Audio</key>
 		<dict>
